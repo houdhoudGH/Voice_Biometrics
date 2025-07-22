@@ -1,4 +1,30 @@
-Voice is the most natural way that humans have to communicate with each other. As a signal, the voice is quite complex, conveying multiple types of information, including, of course, information about the identity of the speaker. Discovering the identity of the speaker is the ultimate goal of the science of voice biometrics, which is also the goal of this research.
-The aim of this project is to explore voice biometrics, with a focus on speaker verification. We seek to build a system capable of identifying a speaker by analyzing the unique characteristics of their voice.
-Voice biometrics is a fascinating field that combines signal processing, machine learning, and linguistics. This project was chosen due to its increasing importance in practical applications such as security, authentication, and voice assistants. Additionally, it provides a unique opportunity to apply theoretical concepts in automatic speech processing (ASR) and data science.
-In this project, we aimed to build a speaker verification system using statistical methods, particularly i-vectors and Gaussian Mixture Models (GMMs). We also explored acoustic feature extraction techniques, such as Mel-Frequency Cepstral Coefficients (MFCCs), to capture relevant voice information.
+#  Voice Biometrics  
+**Unlocking Identity Through the Power of Speech**
+
+##  Description
+This project explores voice biometrics with a focus on **speaker verification** using classical statistical methods like **i-vectors** and **Gaussian Mixture Models (GMMs)**. The goal is to build a system that can verify a person's identity based on their voice.
+
+##  Project Structure
+- **Training phase**: MFCC extraction, UBM training, T-matrix creation
+- **Testing phase**: I-vector generation, speaker classification using Random Forest
+- **Datasets**: Common Voice (train), VoxCeleb (test)
+
+## Results
+The model results highlight the challenges of limited data and high computational cost.
+
+## Techniques Used
+- MFCCs for feature extraction  
+- GMM-UBM modeling  
+- I-Vector + T-Matrix projection  
+- Random Forest classification  
+- PLDA (optional) for scoring
+
+## Full Report
+You can read the full project report [Read the full report](Voice_Biometrics_Report.pdf).
+
+## Author
+**Gheffari Nour El Houda**  
+M1 Data Science and NLP — University of Saad Dahleb Blida  
+2024/2025
+
+---
